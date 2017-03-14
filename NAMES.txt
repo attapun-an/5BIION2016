@@ -1,0 +1,8 @@
+Mouse
+Koala
+Cat
+Dog
+Pig
+Cow
+Elephant
+Whale
