@@ -1,0 +1,3 @@
+file_object = open(fileName, "r")
+        data = file_object.read()
+        listed = data.split(",")
