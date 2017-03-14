@@ -14,5 +14,16 @@ def reader_v2():
         player_name.append(line)
     print(player_name)
 
+
+def reader_v3():
+    player_name = []
+    file = open("NAMES.txt", "r")
+    read = file.read()
+    separated = read.splitlines()
+    player_name.append(separated)
+    print(player_name)
+
+
 reader()
 reader_v2()
+reader_v3()

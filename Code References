@@ -1,3 +1,10 @@
+
+(from City)
 file_object = open(fileName, "r")
         data = file_object.read()
         listed = data.split(",")
+
+
+read = file.read()
+separated = read.splitlines()
+player_name.append(separated)
